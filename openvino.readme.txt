@@ -1,0 +1,31 @@
+chrome://flags 
+edge://flags/ 
+
+In the Search flags box, enter webnn. And enable
+
+Install 
+1.	Pythone 
+2.	Github
+
+----------------------------------
+
+C:\Users\Lenovo47\AppData\Local\Programs\Python\Python310\python -m venv openvino_env
+
+openvino_env\Scripts\activate
+
+git clone --depth=1 https://github.com/openvinotoolkit/openvino_notebooks.git
+
+cd openvino_notebooks
+
+python -m pip install --upgrade pip wheel setuptools
+
+pip install -r requirements.txt
+
+pip install -U huggingface_hub
+
+jupyter lab notebooks
+
+------------------
+
+!pip install matplotlib
+
